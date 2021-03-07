@@ -143,3 +143,24 @@ img {
     margin-top: -0px;
     margin-bottom: 30px;
 }
+
+#sponsorimg {
+    /* Prevent vertical gaps */
+    line-height: 0;
+     
+    -webkit-column-count: 6;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    6;
+    -moz-column-gap:      0px;
+    column-count:         6;
+    column-gap:           0px;  
+
+    width: 70%;
+    margin: auto;
+}
+
+#photos img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+}

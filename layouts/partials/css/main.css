@@ -120,9 +120,9 @@ th {
 }
 
 #sponsors {
+    /* border is there so i can keep track of where the block is */
     border: #cc0000 1px;
     border-style: solid;
-    border-radius: 15px;
     margin-top: 25px;
 }
 
